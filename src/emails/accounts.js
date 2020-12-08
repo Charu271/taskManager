@@ -8,8 +8,7 @@ const welcomeEmail = (email, name) => {
     to: email,
     subject: "Welcome to task manager app",
     text: `Welcome to Task Manager App ${name}. Let me know your experience. `,
-    html:
-      "<h1>Welcome to TaskManager</h1><img src='../../images/profile-pic.jpg'/>",
+    html: "<h1>Welcome to TaskManager</h1>",
   });
 };
 
